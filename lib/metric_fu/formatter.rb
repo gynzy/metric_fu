@@ -39,7 +39,7 @@ module MetricFu
         @options['link_prefix'] = nil
         @options['darwin_txmt_protocol_no_thanks'] = true
         # # turning off syntax_highlighting may avoid some UTF-8 issues
-        @options['syntax_highlighting'] = true
+        @options['syntax_highlighting'] = false
       end
 
     end
